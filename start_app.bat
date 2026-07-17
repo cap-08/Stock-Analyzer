@@ -9,8 +9,7 @@ REM Give the server a couple seconds to boot up
 timeout /t 3 /nobreak >nul
 
 REM Open the site in your default browser
-start "" http://127.0.0.1:5000
-
+start "" http://127.0.0.1:5050
 echo.
 echo The dashboard should now be open in your browser.
 echo (A minimized server window is running in the background - closing it will stop the site.)
